@@ -1,0 +1,552 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: #161616;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+P {
+    font-size: 0.9em;
+    max-width: 35em;
+    line-height: 27px;
+}
+h1,h2 {
+    font-weight: 300;
+}
+h1{
+    margin: 0.5em 0;
+    font-size: 3em;
+}
+.specs h2,.h2 h2,.z10 h2, .ni h2,.z h2, .about h2 {
+    font-size: 2em;
+    padding-left: 1.2em;
+    border-left: 0.1em #22ff00 solid;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+section{padding:2.5em;
+}
+
+/*Set all flex Layouts */
+nav, .infos, .info,
+.specs-header,.h2 li,.z10 li,.z10-header,.z li,.z-header, .h2-header ,.ni li,.ni-header,.specs li,
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specs, .icon, .h2,.z10,.ni,.z,
+.panel:first-child,
+.h21:first-child,
+.panel:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 100vh;
+    min-height: 30em;
+    background: 
+       url(https://kawasaki-india.com/wp-content/uploads/2020/09/Action-image-Z900-updated-1-1.png)
+       no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+/*=== Header Body ===*/
+.header-body{
+    padding: 2.5em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-body p { 
+    max-width:25em;
+    font-size: 2em;
+}
+
+.header-body p1{
+    font-size: 5em;
+    font-family: "Arial black";
+}
+/*=== About Section ===*/
+.heading h2 {
+    margin-bottom: 1.5em;
+    font-family: "arial black";
+}
+.heading p{
+    margin-left: 3em;
+    display: inline-block;
+}
+.info{
+    gap:2em;
+}
+.info, .heading{
+    padding: 5em 1em;
+}
+.info img{
+    max-width: 7em;
+    margin-right: 1em;
+}
+.info h3{
+    margin-bottom: 0,5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info p{
+    max-width: 30em;
+    font-size: 20;
+}
+/*===Specs Section ===*/
+.specs{
+    background:
+    url(Z900.jpeg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.specs-header, .specs ul {
+    position: relative;
+    z-index:1;
+}
+.specs ul {
+    width: 40em;
+    margin-top:3em;
+}
+.specs li{
+    padding: 0.6em 0;
+    border-bottom: #555 1px solid;
+}
+.specs li span:first-child {
+    color: rgb(255, 255, 255);
+}
+/*===Panels Section ===*/
+.panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.panel > div{
+    padding: 1em;
+}
+.panels-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.panel:first-child,
+.panel:last-child{
+    padding: 1em;
+}
+.panel:nth-child(2){
+    background:
+      url(https://www.cycleworld.com/resizer/Q44kxKfBAcbzLfrbu9l_zIubVfc=/arc-photo-octane/arc3-prod/public/KBT5OYND2ZAMTGBCF4A4UYUXGU.jpg)
+      no-repeat center;
+}
+.panel:nth-child(3){
+    background:
+      url(https://kawasaki-india.com/wp-content/uploads/2020/02/5.jpg)
+      no-repeat center;
+}
+.panel:nth-child(4){
+    background:
+     url(https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20170703055947_4.jpg&w=726&h=482&q=75&c=1)
+     no-repeat center;
+}
+.panel:nth-child(1){
+    background:
+     url(https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20170703055939_3.jpg&w=726&h=482&q=75&c=1)
+     no-repeat center;
+}
+.panel:nth-child(2),
+.panel:nth-child(3),
+.panel:nth-child(4),
+.panel:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+/*Set all image dark overlays*/
+.specs::before,
+.panel:nth-child(2):before,
+.panel:nth-child(3):before {
+    content:'';
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    z-index:0;
+}
+.panel h2{
+    margin: 0.7em 0;
+}
+.panel-lg {
+    background:
+    url(https://bd.gaadicdn.com/upload/newsimages/8276.jpg)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    font-size:2em;
+    border-radius:50%;
+    width: 1.5em;
+    height:1.5em;
+}
+.panel:first-child .icon{
+    border: 3px #fff solid;
+}
+.panel:nth-child(4) .icon{
+    border: 3px #555 solid;
+}
+/*Spec of H2*/
+.h2{
+    background:
+    url(h2.jpeg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.h2-header, .h2 ul {
+    position: relative;
+    z-index: 1;
+}
+.h2 ul {
+    width: 40em;
+    margin-top:3em;
+}
+.h2 li{
+    padding: 0.6em 0;
+    border-bottom: rgb(53, 53, 53) 1px solid;
+}
+.h2 li span:first-child {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===Panels Section  H2  ===*/
+.h212 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.h21 > div{
+    padding: 1em;
+}
+.h212-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.h21:first-child,
+.h21:last-child{
+    padding: 1em;
+}
+.h21:nth-child(2){
+    background:
+      url(https://tiimg.tistatic.com/fp/1/006/633/kawasaki-ninja-h2-h2r-bike-839.jpg)
+      no-repeat center;
+}
+.h21:nth-child(3){
+    background:
+      url(https://wallpapercave.com/wp/wp2102601.jpg)
+      no-repeat center;
+}
+.h21:nth-child(4){
+    background:
+     url(https://collectingcars.imgix.net/010026/DSC-1571.jpg?w=1263&fit=fillmax&crop=edges&auto=format,compress&cs=srgb&q=85)
+     no-repeat center;
+}
+.h21:nth-child(1){
+    background:
+     url(https://kawasaki-india.com/wp-content/uploads/2018/04/Kawasaki-Launches-The-Ninja-H2-H2-Carbon-and-Ninja-H2R.jpg)
+     no-repeat center;
+}
+.h21:nth-child(2),
+.h21:nth-child(3),
+.h21:nth-child(4),
+.h21:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+
+.h21-lg {
+    background:
+    url(https://www.webbikeworld.com/wp-content/uploads/2021/02/2021-Kawasaki-H2R-Hero.jpg)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*Spec of Z1000*/
+.z10{
+    background:
+    url(z1000.jpeg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.z10-header, .h2 ul {
+    position: relative;
+    z-index: 1;
+}
+.z10 ul {
+    width: 40em;
+    margin-top:3em;
+}
+.z10 li{
+    padding: 0.6em 0;
+    border-bottom: rgb(53, 53, 53) 1px solid;
+}
+.z10 li span:first-child {
+    color: rgb(254, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===Panels Section  Z1000 ===*/
+.z1000 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.z100 > div{
+    padding: 1em;
+}
+.z1000-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.z100:first-child,
+.z100:last-child{
+    padding: 1em;
+}
+.z100:nth-child(2){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/bikewaleimg/ec/885/img/l/Kawasaki-Z1000-Side-5825.jpg?v=201711021421&q=100)
+      no-repeat center;
+}
+.z100:nth-child(3){
+    background:
+      url(https://i.ytimg.com/vi/xxWt1QlyqiM/maxresdefault.jpg)
+      no-repeat center;
+}
+.z100:nth-child(4){
+    background:
+     url(https://www.cycleworld.com/resizer/diZ5sNzSToq6EA2jBJQMLRe6q6E=/1440x0/smart/cloudfront-us-east-1.images.arcpublishing.com/octane/JBAMYLHMDZHOLIPQP5IAITZQUI.jpg)
+     no-repeat center;
+}
+.z100:nth-child(1){
+    background:
+     url(https://www.cycleworld.com/resizer/rJ72lT84munwH6MijjluUWmOmic=/1440x0/smart/cloudfront-us-east-1.images.arcpublishing.com/octane/LXOQG5HZHZDVHFMGZHWEQ3S3EI.jpg)
+     no-repeat center;
+}
+.z100:nth-child(2),
+.z100:nth-child(3),
+.z100:nth-child(4),
+.z100:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+
+.z100-lg {
+    background:
+    url(https://eadwbdzx6ti.exactdn.com/wp-content/uploads/2013/12/2014-kawasaki-z1000-india-price-pics-1.jpg)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*Spec of Ninja 300*/
+.ni{
+    background:
+    url(300.jpeg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.ni-header, .h2 ul {
+    position: relative;
+    z-index: 1;
+}
+.ni ul {
+    width: 40em;
+    margin-top:3em;
+}
+.ni li{
+    padding: 0.6em 0;
+    border-bottom: rgb(53, 53, 53) 1px solid;
+}
+.ni li span:first-child {
+    color: rgb(254, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===Panels Section  Ninja 300===*/
+.nin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.ninj > div{
+    padding: 1em;
+}
+.nin-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ninj:first-child,
+.ninj:last-child{
+    padding: 1em;
+}
+.ninj:nth-child(2){
+    background:
+      url(https://imgd.aeplcdn.com/600x337/bw/ec/28747/Kawasaki-Ninja-650-Indicator-95092.jpg?wm=2&q=75)
+      no-repeat center;
+}
+.ninj:nth-child(3){
+    background:
+      url(https://blog.gaadikey.com/wp-content/uploads/2016/11/Kawasaki-Ninja-300-Instrument-Cluster.jpg)
+      no-repeat center;
+}
+.ninj:nth-child(4){
+    background:
+     url(https://i.pinimg.com/originals/43/86/34/4386342e0996230e86e211a49e7b4630.jpg)
+     no-repeat center;
+}
+.ninj:nth-child(1){
+    background:
+     url(https://eadwbdzx6ti.exactdn.com/wp-content/uploads/2013/05/Kawasaki-Ninja-300-review-India-63-600x399.jpg?strip=all&lossy=1&ssl=1)
+     no-repeat center;
+}
+.ninj:nth-child(2),
+.ninj:nth-child(3),
+.ninj:nth-child(4),
+.ninj:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+
+.ninj-lg {
+    background:
+    url(https://bd.gaadicdn.com/processedimages/kawasaki/ninja-400/640X309/ninja-40062b2b760470d9.jpg?tr=w-135)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*Spec of Ninja ZX10R*/
+.z{
+    background:
+     url(ZX10R.jpeg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.z-header, .z ul {
+    position: relative;
+    z-index: 1;
+}
+.z ul {
+    width: 40em;
+    margin-top:3em;
+}
+.z li{
+    padding: 0.6em 0;
+    border-bottom: rgb(53, 53, 53) 1px solid;
+}
+.z li span:first-child {
+    color: rgb(254, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===Panels Section  Ninja ZX10R===*/
+.zx1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.zx > div{
+    padding: 1em;
+}
+.zx1-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.zx:first-child,
+.zx:last-child{
+    padding: 1em;
+}
+.zx:nth-child(2){
+    background:
+      url(https://www.motorbeam.com/wp-content/uploads/2021-Kawasaki-Ninja-ZX-10R-Review-14.jpg)
+      no-repeat center;
+}
+.zx:nth-child(3){
+    background:
+      url(https://img.indianautosblog.com/2015/10/2016-Kawasaki-Ninja-ZX-10R-rear-quarter-at-2015-Tokyo-Motor-Show.jpg)
+      no-repeat center;
+}
+.zx:nth-child(4){
+    background:
+     url(https://www.drivespark.com/images/2020-11/2021-kawasaki-ninja-zx-10r-30.jpg)
+     no-repeat center;
+}
+.zx:nth-child(1){
+    background:
+     url(https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcdni.autocarindia.com%2FReviews%2FKawasaki-Ninja-ZX10R-8.jpg&c=0)
+     no-repeat center;
+}
+.zx:nth-child(2),
+.zx:nth-child(3),
+.zx:nth-child(4),
+.zx:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+
+.zx-lg {
+    background:
+    url(https://www.motorbeam.com/wp-content/uploads/2021-Kawasaki-Ninja-ZX-10R-Review-10.jpg)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
