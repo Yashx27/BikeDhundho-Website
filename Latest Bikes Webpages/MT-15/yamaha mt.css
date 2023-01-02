@@ -26,7 +26,6 @@ h1{
     font-size: 2em;
     padding-left: 1.2em;
     border-left: 0.1em #0096ff solid;
-    font-weight:bold
 }
 ul{
     list-style: none;
@@ -55,10 +54,10 @@ nav, .infos, .info,
     align-items: center;
 }
 header{
-    height: 115vh;
+    height: 100vh;
     min-height: 30em;
     background: 
-       url(https://i.pinimg.com/originals/1f/13/08/1f1308e3f947a39437384e57ca17dcb6.jpg)
+       url(header_bg.png)
        no-repeat center;
     background-size: cover;
     display: flex;
@@ -93,6 +92,7 @@ nav a:hover {
 
 /*=== Header Body ===*/
 .header-body{
+    font-family: 'Arial Black';
     padding: 2.5em;
     height: 100%;
     width: 100%;

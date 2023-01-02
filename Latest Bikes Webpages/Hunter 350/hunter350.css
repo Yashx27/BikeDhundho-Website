@@ -16,7 +16,7 @@ P {
     line-height: 27px;
 }
 h1,h2 {
-    font-weight: bold;
+    font-weight: 300;
 }
 h1{
     margin: 0.5em 0;
@@ -26,7 +26,6 @@ h1{
     font-size: 2em;
     padding-left: 1.2em;
     border-left: 0.1em #fc2513 solid;
-    font-weight:bold
 }
 ul{
     list-style: none;
@@ -58,7 +57,7 @@ header{
     height: 100vh;
     min-height: 30em;
     background: 
-       url(https://cdn.motor1.com/images/mgl/BXXkVR/s1/2023-royal-enfield-hunter-350---rebel-blue-and-dapper-ash.jpg)
+       url(header_bg.png)
        no-repeat center;
     background-size: cover;
     display: flex;
@@ -93,6 +92,7 @@ nav a:hover {
 
 /*=== Header Body ===*/
 .header-body{
+    font-family: 'Arial Black';
     padding: 2.5em;
     height: 100%;
     width: 100%;

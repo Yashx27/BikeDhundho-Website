@@ -16,7 +16,7 @@ P {
     line-height: 27px;
 }
 h1,h2 {
-    font-weight: bold;
+    font-weight: 300;
 }
 h1{
     margin: 0.5em 0;
@@ -26,7 +26,6 @@ h1{
     font-size: 2em;
     padding-left: 1.2em;
     border-left: 0.1em #fffdd0 solid;
-    font-weight:bold
 }
 ul{
     list-style: none;
@@ -93,6 +92,7 @@ nav a:hover {
 
 /*=== Header Body ===*/
 .header-body{
+    font-family: 'Arial Black';
     padding: 2.5em;
     height: 100%;
     width: 100%;
@@ -138,7 +138,7 @@ nav a:hover {
     background-size: cover;
     min-height: 40em;
     position: relative;
-    padding-top: 18em;
+    padding-top: 8em;
     padding-bottom: 8em;
    
     	
