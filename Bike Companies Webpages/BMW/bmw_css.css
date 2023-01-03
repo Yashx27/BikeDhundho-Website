@@ -309,7 +309,7 @@ header{
 }
 .z10 li{
     padding: 0.6em 0;
-    border-bottom: #fff(53, 53, 53) 1px solid;
+    border-bottom: #fff 1px solid;
 }
 .z10 li span:first-child {
     color: rgb(254, 252, 252);
@@ -392,7 +392,7 @@ header{
 }
 .ni li{
     padding: 0.6em 0;
-    border-bottom: #fff(53, 53, 53) 1px solid;
+    border-bottom: #fff 1px solid;
 }
 .ni li span:first-child {
     color: rgb(254, 252, 252);
@@ -475,7 +475,7 @@ header{
 }
 .z li{
     padding: 0.6em 0;
-    border-bottom: #fff(53, 53, 53) 1px solid;
+    border-bottom: #fff 1px solid;
 }
 .z li span:first-child {
     color: rgb(254, 252, 252);
