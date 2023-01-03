@@ -92,6 +92,8 @@ nav a:hover {
 }
 /*=== Header Body ===*/
 .header-body{
+    font-family: 'Arial Black';
+    font-size: larger;
     padding: 2.5em;
     height: 100%;
     width: 100%;
@@ -101,13 +103,8 @@ nav a:hover {
 
 .header-body p { 
     max-width:25em;
-    font-size: 2em;
 }
 
-.header-body p1{
-    font-size: 5em;
-    font-family: "Arial black";
-}
 /*=== About Section ===*/
 .heading h2 {
     margin-bottom: 1.5em;
