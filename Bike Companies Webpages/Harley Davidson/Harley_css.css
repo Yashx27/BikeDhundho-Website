@@ -16,7 +16,7 @@ P {
     line-height: 27px;
 }
 h1,h2 {
-    font-weight: 300;
+    font-weight: bold;
 }
 h1{
     margin: 0.5em 0;
@@ -132,6 +132,7 @@ header{
 .specs li{
     padding: 0.6em 0;
     border-bottom: #555 1px solid;
+    color:#fff
 }
 .specs li span:first-child {
     color: rgb(255, 255, 255);
