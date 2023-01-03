@@ -1,8 +1,9 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    
-    background: #333;
+    color: #fff;
+    background: #161616;
+}
 }
 
 * {
@@ -133,7 +134,7 @@ header{
 }
 .specs li{
     padding: 0.6em 0;
-    border-bottom: #fff 1px solid;
+    border-bottom:  #555 1px solid;
 }
 .specs li span:first-child {
     color: rgb(255, 255, 255);
@@ -227,6 +228,7 @@ header{
 .h2 li{
     padding: 0.6em 0;
     border-bottom: #fff 1px solid;
+    color:#fff
 }
 .h2 li span:first-child {
     color: rgb(255, 255, 255);
@@ -310,6 +312,7 @@ header{
 .z10 li{
     padding: 0.6em 0;
     border-bottom: #fff 1px solid;
+    color: #fff;
 }
 .z10 li span:first-child {
     color: rgb(254, 252, 252);
@@ -393,6 +396,7 @@ header{
 .ni li{
     padding: 0.6em 0;
     border-bottom: #fff 1px solid;
+    color: #fff;
 }
 .ni li span:first-child {
     color: rgb(254, 252, 252);
@@ -476,6 +480,7 @@ header{
 .z li{
     padding: 0.6em 0;
     border-bottom: #fff 1px solid;
+    color:#fff
 }
 .z li span:first-child {
     color: rgb(254, 252, 252);
