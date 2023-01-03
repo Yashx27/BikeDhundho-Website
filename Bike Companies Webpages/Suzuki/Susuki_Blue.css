@@ -112,7 +112,7 @@ header{
 /*===Specs Section ===*/
 .specs{
     background:
-    url(image/Gixxer\ SF.jpeg)
+    url(Gixxer SF.jpeg)
     no-repeat center;
     background-size: cover;
     min-height: 40em;
@@ -206,7 +206,7 @@ header{
 /*Spec of H2*/
 .h2{
     background:
-    url(image/Hayabusa.jpeg)
+    url(Hayabusa.jpeg)
     no-repeat center;
     background-size: cover;
     min-height: 40em;
@@ -289,7 +289,7 @@ header{
 /*Spec of Z1000*/
 .z10{
     background:
-    url(image/Vstrom.jpeg)
+    url(Vstrom.jpeg)
     no-repeat center;
     background-size: cover;
     min-height: 40em;
@@ -372,7 +372,7 @@ header{
 /*Spec of Ninja 300*/
 .ni{
     background:
-    url(image/Katana.jpeg)
+    url(Katana.jpeg)
     no-repeat center;
     background-size: cover;
     min-height: 40em;
@@ -455,7 +455,7 @@ header{
 /*Spec of Ninja ZX10R*/
 .z{
     background:
-     url(image/Gixxer.jpeg)
+     url(Gixxer.jpeg)
     no-repeat center;
     background-size: cover;
     min-height: 40em;
