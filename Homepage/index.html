@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bikedhundo-Latest Bikes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section class="main">
+        <header>
+            <a href="#"><img src="Website_logo_white.png" class="logo" alt="LOGO" </a>
+                <ul class="navigation">
+                    <li><a href="#latest">Latest Bikes</a></li>
+                    <li><a href="#seller">Bestsellers</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+        </header>
+        <div class="content">
+            <h2>Search the <span>right bike</span></h2>
+            <select class="select_brand">
+                <option value="none" selected disabled hidden>Select Brand</option>
+                <option class="name" value="re">Royal Enfield</option>
+                <option class="name" value="j">Jawa</option>
+                <option class="name" value="k">Kawasaki</option>
+                <option class="name" value="s">Suzuki</option>
+                <option class="name" value="bmw">BMW</option>
+                <option class="name" value="hd">Harley Davidson</option>
+            </select>
+            <a href="#" class="btn">Ride Now</a>
+            <img src="bg.png" class="bike">
+        </div>
+        <h2 id="latest" class="heading">LATEST <span>BIKES</span></h2>
+        <!--image slider1 start-->
+        <section class="image_slider">
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="Hunter 350.png" alt="Hunter">
+                </div>
+                <div class="slide">
+                    <img src="MT-15.png" alt="MT-15">
+                </div>
+                <div class="slide">
+                    <img src="Sportster S.png" alt="Sportster S">
+                </div>
+                <div class="slide">
+                    <img src="SR1000RR.png" alt="SR1000RR">
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation start-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        </section>
+        <!--image slider1 end-->
+        <h2 id="seller" class="heading">BEST<span>SELLERS</span></h2>
+        <!--image slider2 start-->
+        <section class="image_slider2">
+        <div class="slider2">
+            <div class="slides2">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn-2" id="button1">
+                <input type="radio" name="radio-btn-2" id="button2">
+                <input type="radio" name="radio-btn-2" id="button3">
+                <input type="radio" name="radio-btn-2" id="button4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide2 first">
+                    <img src="Hayabusa.png" alt="Hayabusa">
+                </div>
+                <div class="slide2">
+                    <img src="CBR650R.png" alt="CBR650R">
+                </div>
+                <div class="slide2">
+                    <img src="Tiger Sport 660.png" alt="Tiger Sport 660">
+                </div>
+                <div class="slide2">
+                    <img src="Z900.png" alt="Z900">
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto-2">
+                    <div class="auto-btn-21"></div>
+                    <div class="auto-btn-22"></div>
+                    <div class="auto-btn-23"></div>
+                    <div class="auto-btn-24"></div>
+                </div>
+                <!--automatic navigation start-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual-2">
+                <label for="button1" class="manual-btn-2"></label>
+                <label for="button2" class="manual-btn-2"></label>
+                <label for="button3" class="manual-btn-2"></label>
+                <label for="button4" class="manual-btn-2"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        </section>
+        <!--image slider2 end-->
+                
+        <div class="footer">
+            <ul class="sci">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+        </div>
+    </section>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+    <script type="text/javascript">
+        var count = 1;
+        setInterval(function(){
+            document.getElementById('button' + count).checked = true;
+            count++;
+            if(count > 4){
+                count = 1;
+            }
+        }, 5000);
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
