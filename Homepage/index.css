@@ -101,6 +101,7 @@ header{
     border-radius: 50px;
     font-size: 1.25em;
     transition: 0.25s;
+    cursor:pointer
 }
 .btn:hover{
     letter-spacing: 4px;
