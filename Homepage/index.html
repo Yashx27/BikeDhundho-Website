@@ -22,7 +22,7 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
         </header>
         <div class="content">
             <h2>Search the <span>right bike</span></h2>
-            <select class="select_brand" id="slct1" name="slct1">
+            <select class="select_brand" id="slct1" name="slct1" onclick="call(slct1)">
                 <option value="none" selected disabled hidden>Select Brand</option>
                 <option class="name" value="re">Royal Enfield</option>
                 <option class="name" value="j">Jawa</option>
@@ -32,7 +32,7 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
                 <option class="name" value="hd">Harley Davidson</option>
             </select>
             <input type="button" class="btn" value="Ride Now" onclick="submit(slct1)">
-            <img src="bg.png" class="bike">
+            <img src="bg.png" class="bike"  >
         </div>
         <h2 id="latest" class="heading">LATEST <span>BIKES</span></h2>
         <!--image slider1 start-->
@@ -173,12 +173,9 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
             else if(s1.value=="bmw"){
                 window.location.assign("#")	}
             else if(s1.value=="hd"){
-                window.location.assign("#")	}
+                window.location.assign("#")	}}
+         
                 
-            
-        }
-        
-        
         
         </script>
 </body>
