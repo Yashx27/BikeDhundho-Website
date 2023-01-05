@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <title>bikedhundo-Latest Bikes</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -20,7 +22,7 @@
         </header>
         <div class="content">
             <h2>Search the <span>right bike</span></h2>
-            <select class="select_brand">
+            <select class="select_brand" id="slct1" name="slct1">
                 <option value="none" selected disabled hidden>Select Brand</option>
                 <option class="name" value="re">Royal Enfield</option>
                 <option class="name" value="j">Jawa</option>
@@ -29,7 +31,7 @@
                 <option class="name" value="bmw">BMW</option>
                 <option class="name" value="hd">Harley Davidson</option>
             </select>
-            <a href="#" class="btn">Ride Now</a>
+            <input type="button" class="btn" value="Ride Now" onclick="submit(slct1)">
             <img src="bg.png" class="bike">
         </div>
         <h2 id="latest" class="heading">LATEST <span>BIKES</span></h2>
@@ -153,5 +155,31 @@
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script type="text/javascript">
+        function brand(s1){
+            var s1 = document.getElementById(s1);
+                
+        }
+        function submit(s1){
+            if(s1.value=="re"){
+                window.location.assign("#")	}
+            else if(s1.value=="j"){
+                window.location.assign("#")	}
+            else if(s1.value=="k"){
+                window.location.assign("#")	}
+            else if(s1.value=="s"){
+                window.location.assign("#")	}
+            else if(s1.value=="bmw"){
+                window.location.assign("#")	}
+            else if(s1.value=="hd"){
+                window.location.assign("#")	}
+                
+            
+        }
+        
+        
+        
+        </script>
 </body>
 </html>
