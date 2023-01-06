@@ -31,8 +31,9 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
                 <option class="name" value="bmw">BMW</option>
                 <option class="name" value="hd">Harley Davidson</option>
             </select>
-            <input type="button" class="btn" value="Ride Now" onclick="submit(slct1)">
-            <img src="bg.png" class="bike"  >
+            <input type="button" class="btn" value="Ride Now" onclick="submit(slct1)" >
+			<p id="body"></p>
+            <img src="bg.png" class="bike" id="img" >
         </div>
         <h2 id="latest" class="heading">LATEST <span>BIKES</span></h2>
         <!--image slider1 start-->
@@ -174,7 +175,27 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
                 window.location.assign("#")	}
             else if(s1.value=="hd"){
                 window.location.assign("#")	}}
-         
+         function call(s1){
+
+            if(s1.value=="re"){
+                document.getElementById("img").src="bg_bg.png"
+            }
+            else if(s1.value=="j"){
+                document.getElementById("img").src="jawa_bg.png"
+            }
+            else if(s1.value=="k"){
+                document.getElementById("img").src="kawasaki_bg.png"
+            }
+            else if(s1.value=="s"){
+                document.getElementById("img").src="suzuki_bg.png"
+            }
+            else if(s1.value=="bmw"){
+                document.getElementById("img").src="bmw_bg.png"
+            }
+            else if(s1.value=="hd"){
+                document.getElementById("img").src="hd_bg.png"
+            }
+        }
                 
         
         </script>
