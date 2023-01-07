@@ -32,8 +32,8 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
                 <option class="name" value="hd">Harley Davidson</option>
             </select>
             <input type="button" class="btn" value="Ride Now" onclick="submit(slct1)" >
-			<p id="body"></p>
-            <img src="bg.png" class="bike" id="img" >
+			
+            <img src="bg.png"  class="bike" id="img" >
         </div>
         <h2 id="latest" class="heading">LATEST <span>BIKES</span></h2>
         <!--image slider1 start-->
@@ -181,8 +181,11 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
                 document.getElementById("img").src="bg.png"
             }
             else if(s1.value=="j"){
-                document.getElementById("img").src="jawa_bg.png"
-            }
+                let j =document.getElementById("img")
+				j.src="jawa_bg.png"
+				
+				
+			}
             else if(s1.value=="k"){
                 document.getElementById("img").src="kawasaki_bg.png"
             }
