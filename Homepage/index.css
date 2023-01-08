@@ -106,12 +106,6 @@ header{
 .btn:hover{
     letter-spacing: 4px;
 }
-.bike{
-    height:700px;
-    width: 1250px;
-    
-
-}
 .footer{
     position: relative;
     bottom: 0;
