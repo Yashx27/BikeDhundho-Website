@@ -37,7 +37,15 @@ a{
 
 section{padding:2.5em;
 }
-
+.menu li a{
+    font-weight: 600;
+    transition: 0.25s;
+    letter-spacing: 0.5px;
+}
+.menu li a:hover{
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
 /*Set all flex Layouts */
 nav, .infos, .info,
 .specs-header,.h2 li,.z10 li,.z10-header,.z li,.z-header, .h2-header ,.ni li,.ni-header,.specs li,
@@ -74,22 +82,12 @@ nav{
     display: none;
 }
 
-.brand{
-    font-size: 1.3em;
-}
 nav li{
     display: inline-block;
     margin: 0 0.8em;
     text-align: center;
 }
 
-nav a{
-    color: #fff;
-}
-
-nav a:hover {
-    color: #eee;
-}
 /*=== Header Body ===*/
 .header-body{
     font-family: 'Arial Black';

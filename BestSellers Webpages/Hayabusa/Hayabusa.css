@@ -37,6 +37,15 @@ a{
 
 section{padding:2.5em;
 }
+.home a{
+    font-weight: 600;
+    transition: 0.25s;
+    letter-spacing: 0.5px;
+}
+.home a:hover{
+    letter-spacing: 2px;
+    font-weight: 700;
+}
 
 /*Set all flex Layouts */
 nav, .infos, .info,
@@ -362,7 +371,7 @@ font-weight:normal
         display:block;
         margin: 1 em 0;
     }
-    .specs ul,{
+    .specs ul{
         width:  80vw;
     }
     .infos, .info, .stats{
