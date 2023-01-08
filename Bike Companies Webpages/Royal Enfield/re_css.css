@@ -1,0 +1,539 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: #161616;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+P {
+    font-size: 0.9em;
+    max-width: 35em;
+    line-height: 27px;
+}
+h1,h2 {
+    font-weight: 300;
+}
+h1{
+    margin: 0.5em 0;
+    font-size: 3em;
+}
+.specs h2,.h2 h2,.z10 h2, .ni h2,.z h2, .about h2 {
+    font-size: 2em;
+    padding-left: 1.2em;
+    border-left: 0.1em #ffffff solid;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+section{padding:2.5em;
+}
+
+/*Set all flex Layouts */
+nav, .infos, .info,
+.specs-header,.h2 li,.z10 li,.z10-header,.z li,.z-header, .h2-header ,.ni li,.ni-header,.specs li,
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specs, .icon, .h2,.z10,.ni,.z,
+.panel:first-child,
+.h21:first-child,
+.panel:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 100vh;
+    min-height: 30em;
+    background: 
+       url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/bullet/bullet-350/features/desktop/new/bullet-350-majestic-stance.jpg)
+       no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+/*=== Header Body ===*/
+.header-body{
+    padding: 2.5em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-body p { 
+    max-width:25em;
+    font-size: 2em;
+}
+
+.header-body p1{
+    font-size: 5em;
+    font-family: "Arial black";
+}
+/*=== About Section ===*/
+.heading h2 {
+    margin-bottom: 1.5em;
+    font-family: "arial black";
+}
+.heading p{
+    margin-left: 3em;
+    display: inline-block;
+}
+.info{
+    gap:2em;
+}
+.info, .heading{
+    padding: 5em 1em;
+}
+.info img{
+    max-width: 7em;
+    margin-right: 1em;
+}
+.info h3{
+    margin-bottom: 0,5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info p{
+    max-width: 30em;
+    font-size: 20;
+}
+/*==Royal Enfield Classic 350==*/
+/*===Specs Section ===*/
+.specs{
+    background:
+    url(https://www.indiacarnews.com/wp-content/uploads/2020/11/RE-Classic-350-Dual-Channel.jpg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.specs-header, .specs ul {
+    position: relative;
+    z-index:1;
+}
+.specs ul {
+    width: 40em;
+    margin-top:3em;
+}
+.specs li{
+    padding: 0.6em 0;
+    border-bottom: #555 1px solid;
+}
+.specs li span:first-child {
+    color: rgb(255, 255, 255);
+}
+/*===Panels Section ===*/
+.panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.panel > div{
+    padding: 1em;
+}
+.panels-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.panel:first-child,
+.panel:last-child{
+    padding: 1em;
+}
+.panel:nth-child(2){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/101487/classic-350-2021-engine-from-right.jpeg?isig=0&q=80)
+      no-repeat center;
+}
+.panel:nth-child(3){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/103507/tft-instrument-cluster3.jpeg?isig=0&wm=2&q=80)
+      no-repeat center;
+}
+.panel:nth-child(4){
+    background:
+     url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/101487/classic-350-2021-rear-spoke-wheel.jpeg?isig=0&q=80)
+     no-repeat center;
+}
+.panel:nth-child(1){
+    background:
+     url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/101487/classic-350-2021-branding-fuel-tank-dacal.jpeg?isig=0&q=80)
+     no-repeat center;
+}
+.panel:nth-child(2),
+.panel:nth-child(3),
+.panel:nth-child(4),
+.panel:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+.panel-lg {
+    background:
+    url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/136269/royalenfield-classic-350-right-front-three-quarter0.jpeg?isig=0&wm=3&q=80)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    font-size:2em;
+    border-radius:50%;
+    width: 1.5em;
+    height:1.5em;
+}
+.panel:first-child .icon{
+    border: 3px #fff solid;
+}
+.panel:nth-child(4) .icon{
+    border: 3px #555 solid;
+}
+/*=hunter=*/
+/*Spec of H2*/
+.h2{
+    background:
+    url(https://bd.gaadicdn.com/processedimages/royal-enfield/roadstar/640X309/roadstar62efbea09ec54.jpg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.h2-header, .h2 ul {
+    position: relative;
+    z-index: 1;
+}
+.h2 ul {
+    width: 40em;
+    margin-top:3em;
+}
+.h2 li{
+    padding: 0.6em 0;
+    border-bottom: rgb(53, 53, 53) 1px solid;
+}
+.h2 li span:first-child {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===Panels Section  H2  ===*/
+.h212 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.h21 > div{
+    padding: 1em;
+}
+.h212-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.h21:first-child,
+.h21:last-child{
+    padding: 1em;
+}
+.h21:nth-child(2){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/124013/hunter-350-side-fairing.jpeg?isig=0&q=80)
+      no-repeat center;
+}
+.h21:nth-child(3){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/124013/hunter-350-speedometer.jpeg?isig=0&q=80)
+      no-repeat center;
+}
+.h21:nth-child(4){
+    background:
+     url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/124013/hunter-350-front-wheel.jpeg?isig=0&q=80)
+     no-repeat center;
+}
+.h21:nth-child(1){
+    background:
+     url(https://imgd.aeplcdn.com/642x361/n/cw/ec/124013/hunter-350-left-front-three-quarter-2.jpeg?isig=0)
+     no-repeat center;
+}
+.h21:nth-child(2),
+.h21:nth-child(3),
+.h21:nth-child(4),
+.h21:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+
+.h21-lg {
+    background:
+    url(https://static.autox.com/uploads/2022/08/Royal-Enfield-Hunter-350-Side-View-Motion.jpg)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*==Himalayan==*/
+.z10{
+    background:
+    url(https://www.indiacarnews.com/wp-content/uploads/2017/10/Royal-Enfield-Himalayan-750-India.jpg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.z10-header, .h2 ul {
+    position: relative;
+    z-index: 1;
+}
+.z10 ul {
+    width: 40em;
+    margin-top:3em;
+}
+.z10 li{
+    padding: 0.6em 0;
+    border-bottom: rgb(53, 53, 53) 1px solid;
+}
+.z10 li span:first-child {
+    color: rgb(254, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===Panels Section===*/
+.z1000 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.z100 > div{
+    padding: 1em;
+}
+.z1000-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.z100:first-child,
+.z100:last-child{
+    padding: 1em;
+}
+.z100:nth-child(2){
+    background:
+      url(https://www.indiacarnews.com/wp-content/uploads/2017/10/Royal-Enfield-Himalayan-750-India.jpg)
+      no-repeat center;
+}
+.z100:nth-child(3){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/49739/himalayan-tft-instrument-cluster.jpeg?q=80)
+      no-repeat center;
+}
+.z100:nth-child(4){
+    background:
+     url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/49739/himalayan-radiator.jpeg?q=80)
+     no-repeat center;
+}
+.z100:nth-child(1){
+    background:
+     url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/49739/himalayan-front-wheel.jpeg?q=80)
+     no-repeat center;
+}
+.z100:nth-child(2),
+.z100:nth-child(3),
+.z100:nth-child(4),
+.z100:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+
+.z100-lg {
+    background:
+    url(https://static.india.com/wp-content/uploads/2021/09/RE-Himalayan.jpg)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*Continental GT 650*/
+.ni{
+    background:
+    url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/continental-gt/gallery/new/gallery-1.jpg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.ni-header, .h2 ul {
+    position: relative;
+    z-index: 1;
+}
+.ni ul {
+    width: 40em;
+    margin-top:3em;
+}
+.ni li{
+    padding: 0.6em 0;
+    border-bottom: rgb(53, 53, 53) 1px solid;
+}
+.ni li span:first-child {
+    color: rgb(254, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===Panels Section===*/
+.nin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.ninj > div{
+    padding: 1em;
+}
+.nin-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ninj:first-child,
+.ninj:last-child{
+    padding: 1em;
+}
+.ninj:nth-child(2){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/bw/ec/37091/Royal-Enfield-Continental-GT-650-Action-141092.jpg?wm=2&q=80)
+      no-repeat center;
+}
+.ninj:nth-child(3){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/bw/ec/39760/2019-BikeWale-TrackDay-Royal-Enfield-Continental-GT-650-156006.jpg?wm=2&q=80)
+      no-repeat center;
+}
+.ninj:nth-child(4){
+    background:
+     url(https://imgd.aeplcdn.com/1280x720/bw/ec/37091/Royal-Enfield-Continental-GT-650-Action-141077.jpg?wm=2&q=80)
+     no-repeat center;
+}
+.ninj:nth-child(1){
+    background:
+     url(https://imgd.aeplcdn.com/1280x720/bw/ec/37091/Royal-Enfield-Continental-GT-650-Action-141096.jpg?wm=2&q=80)
+     no-repeat center;
+}
+.ninj:nth-child(2),
+.ninj:nth-child(3),
+.ninj:nth-child(4),
+.ninj:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+
+.ninj-lg {
+    background:
+    url(https://imgd.aeplcdn.com/1280x720/bw/ec/37091/Royal-Enfield-Continental-GT-650-Action-141114.jpg?wm=2&q=80)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*Interceptor 650*/
+.z{
+    background:
+     url(https://bd.gaadicdn.com/processedimages/royal-enfield/interceptor-650/source/interceptor-650605ab55d245f1.jpg)
+    no-repeat center;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.z-header, .z ul {
+    position: relative;
+    z-index: 1;
+}
+.z ul {
+    width: 40em;
+    margin-top:3em;
+}
+.z li{
+    padding: 0.6em 0;
+    border-bottom: rgb(53, 53, 53) 1px solid;
+}
+.z li span:first-child {
+    color: rgb(254, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===Panels Section===*/
+.zx1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40em;
+    max-width: 1100px;
+    margin:0 auto;
+    padding-top: 8em;
+}
+.zx > div{
+    padding: 1em;
+}
+.zx1-sm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.zx:first-child,
+.zx:last-child{
+    padding: 1em;
+}
+.zx:nth-child(2){
+    background:
+      url(https://imgd.aeplcdn.com/600x600/bw/ec/37080/Royal-Enfield-Interceptor-650-Front-threequarter-140901.jpg?wm=0)
+      no-repeat center;
+}
+.zx:nth-child(3){
+    background:
+      url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/50464/royalenfield-interceptor-exhaust-headers104.jpeg?wm=2&q=80)
+      no-repeat center;
+}
+.zx:nth-child(4){
+    background:
+     url(https://bd.gaadicdn.com/upload/newsimages/8312.jpg)
+     no-repeat center;
+}
+.zx:nth-child(1){
+    background:
+     url(https://imgd.aeplcdn.com/1280x720/n/cw/ec/50464/royalenfield-interceptor-handle-bar91.jpeg?wm=2&q=80)
+     no-repeat center;
+}
+.zx:nth-child(2),
+.zx:nth-child(3),
+.zx:nth-child(4),
+.zx:nth-child(1){
+    background-size: cover;
+    position:relative;
+}
+
+.zx-lg {
+    background:
+    url(https://img.indianautosblog.com/2021/03/23/2021-interceptor-650-action-shot-d5f5.jpg)
+    no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

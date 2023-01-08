@@ -7,17 +7,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <title>bikedhundo-Latest Bikes</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Homepage/index.css">
 </head>
 
 <body>
     <section class="main">
         <header>
-            <a href="#"><img src="Website_logo_white.png" class="logo" alt="LOGO" </a>
+            <img src="Homepage/Website_logo_white.png" class="logo" alt="LOGO">
                 <ul class="navigation">
                     <li><a href="#latest">Latest Bikes</a></li>
                     <li><a href="#seller">Bestsellers</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="BestSellers Webpages/About Us/About Us.html">About Us</a></li>
                 </ul>
         </header>
         <div class="content">
@@ -31,9 +31,9 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
                 <option class="name" value="bmw">BMW</option>
                 <option class="name" value="hd">Harley Davidson</option>
             </select>
-            <input type="button" class="btn" value="Ride Now" onclick="submit(slct1)" >
+            <input type="button" class="btn" value="Search" onclick="submit(slct1)" >
 			
-            <img src="bg.png"  class="bike" id="img" >
+            <img src="Homepage/bg.png"  class="bike" id="img" >
         </div>
         <h2 id="latest" class="heading">LATEST <span>BIKES</span></h2>
         <!--image slider1 start-->
@@ -48,16 +48,16 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
                 <!--radio buttons end-->
                 <!--slide images start-->
                 <div class="slide first">
-                    <img src="Hunter 350.png" alt="Hunter">
+                    <a href="Latest Bikes Webpages/Hunter 350/hunter 350.html"><img src="Homepage/Hunter 350.png" alt="Hunter"></a>
                 </div>
                 <div class="slide">
-                    <img src="MT-15.png" alt="MT-15">
+                    <a href="Latest Bikes Webpages/MT-15/yamaha mt.html"><img src="Homepage/MT-15.png" alt="MT-15"></a>
                 </div>
                 <div class="slide">
-                    <img src="Sportster S.png" alt="Sportster S">
+                    <a href="Latest Bikes Webpages/Sportster S/sportster.html"><img src="Homepage/Sportster S.png" alt="Sportster S"></a>
                 </div>
                 <div class="slide">
-                    <img src="SR1000RR.png" alt="SR1000RR">
+                    <a href="Latest Bikes Webpages/S1000RR/bmw sr1000rr.html"><img src="Homepage/SR1000RR.png" alt="SR1000RR"></a>
                 </div>
                 <!--slide images end-->
                 <!--automatic navigation start-->
@@ -93,16 +93,16 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
                 <!--radio buttons end-->
                 <!--slide images start-->
                 <div class="slide2 first">
-                    <img src="Hayabusa.png" alt="Hayabusa">
+                    <a href="BestSellers Webpages/Hayabusa/Hayabusa.html"><img src="Homepage/Hayabusa.png" alt="Hayabusa"></a>
                 </div>
                 <div class="slide2">
-                    <img src="CBR650R.png" alt="CBR650R">
+                    <a href="BestSellers Webpages/CBR650R/CBR650R.html"><img src="Homepage/CBR650R.png" alt="CBR650R"></a>
                 </div>
                 <div class="slide2">
-                    <img src="Tiger Sport 660.png" alt="Tiger Sport 660">
+                    <a href="BestSellers Webpages/Tiger Sport 660/Tiger Sport 660.html"><img src="Homepage/Tiger Sport 660.png" alt="Tiger Sport 660"></a>
                 </div>
                 <div class="slide2">
-                    <img src="Z900.png" alt="Z900">
+                    <a href="BestSellers Webpages/Z900/Z900.html"><img src="Homepage/Z900.png" alt="Z900"></a>
                 </div>
                 <!--slide images end-->
                 <!--automatic navigation start-->
@@ -164,43 +164,39 @@ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0
         }
         function submit(s1){
             if(s1.value=="re"){
-                window.location.assign("#")	}
+                window.location.assign("Bike Companies Webpages/Royal Enfield/Royal.html")	}
             else if(s1.value=="j"){
-                window.location.assign("#")	}
+                window.location.assign("Bike Companies Webpages/Jawa/Jawa.html")	}
             else if(s1.value=="k"){
-                window.location.assign("#")	}
+                window.location.assign("Bike Companies Webpages/Kawasaki/Kawasaki.html")	}
             else if(s1.value=="s"){
-                window.location.assign("#")	}
+                window.location.assign("Bike Companies Webpages/Suzuki/Susuki.html")	}
             else if(s1.value=="bmw"){
-                window.location.assign("#")	}
+                window.location.assign("Bike Companies Webpages/BMW/bmw.html")	}
             else if(s1.value=="hd"){
-                window.location.assign("#")	}}
+                window.location.assign("Bike Companies Webpages/Harley Davidson/Harley.html")	}}
          function call(s1){
 
             if(s1.value=="re"){
-                document.getElementById("img").src="bg.png"
+                document.getElementById("img").src="Homepage/bg.png"
             }
             else if(s1.value=="j"){
                 let j =document.getElementById("img")
-				j.src="jawa_bg.png"
-				
-				
+				j.src="Homepage/jawa_bg.png"
 			}
             else if(s1.value=="k"){
-                document.getElementById("img").src="kawasaki_bg.png"
+                document.getElementById("img").src="Homepage/kawasaki_bg.png"
             }
             else if(s1.value=="s"){
-                document.getElementById("img").src="suzuki_bg.png"
+                document.getElementById("img").src="Homepage/suzuki_bg.png"
             }
             else if(s1.value=="bmw"){
-                document.getElementById("img").src="bmw_bg.png"
+                document.getElementById("img").src="Homepage/bmw_bg.png"
             }
             else if(s1.value=="hd"){
-                document.getElementById("img").src="hd_bg.png"
+                document.getElementById("img").src="Homepage/hd_bg.png"
             }
         }
-                
-        
         </script>
 </body>
 </html>
