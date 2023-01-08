@@ -109,6 +109,7 @@ header{
 .bike{
     height:600px;
     width: 1000px;
+    
 
 }
 .footer{
@@ -257,12 +258,6 @@ header{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: aquamarine;
 }
-
-
-
-
-
-
 
 .image_slider2{
     margin: 0;
