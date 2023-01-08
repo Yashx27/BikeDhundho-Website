@@ -64,6 +64,32 @@ header{
     display: flex;
     flex-direction: column;
 }
+/*=== navbar ===*/
+nav{
+    padding: 1.5em 2.5em;
+    position:relative;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.brand{
+    font-size: 1.3em;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0.8em;
+    text-align: center;
+}
+
+nav a{
+    color: #fff;
+}
+
+nav a:hover {
+    color: #eee;
+}
 /*=== Header Body ===*/
 .header-body{
     padding: 2.5em;
