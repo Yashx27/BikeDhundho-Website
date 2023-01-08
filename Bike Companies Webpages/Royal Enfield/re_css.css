@@ -16,7 +16,7 @@ P {
     line-height: 27px;
 }
 h1,h2 {
-    font-weight: 300;
+    font-weight: bold;
 }
 h1{
     margin: 0.5em 0;
@@ -25,7 +25,7 @@ h1{
 .specs h2,.h2 h2,.z10 h2, .ni h2,.z h2, .about h2 {
     font-size: 2em;
     padding-left: 1.2em;
-    border-left: 0.1em #ffffff solid;
+    border-left: 0.1em #BFA862 solid;
 }
 ul{
     list-style: none;
