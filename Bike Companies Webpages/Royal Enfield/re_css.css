@@ -37,6 +37,15 @@ a{
 
 section{padding:2.5em;
 }
+.menu li a{
+    font-weight: 600;
+    transition: 0.25s;
+    letter-spacing: 0.5px;
+}
+.menu li a:hover{
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
 
 /*Set all flex Layouts */
 nav, .infos, .info,
@@ -74,26 +83,18 @@ nav{
     display: none;
 }
 
-.brand{
-    font-size: 1.3em;
-}
 nav li{
     display: inline-block;
     margin: 0 0.8em;
     text-align: center;
 }
 
-nav a{
-    color: #fff;
-}
-
-nav a:hover {
-    color: #eee;
-}
 .logo{
     max-width: 250px;}
 /*=== Header Body ===*/
 .header-body{
+    font-family: 'Arial Black';
+    font-size: larger;
     padding: 2.5em;
     height: 100%;
     width: 100%;
@@ -103,12 +104,6 @@ nav a:hover {
 
 .header-body p { 
     max-width:25em;
-    font-size: 2em;
-}
-
-.header-body p1{
-    font-size: 5em;
-    font-family: "Arial black";
 }
 /*=== About Section ===*/
 .heading h2 {
