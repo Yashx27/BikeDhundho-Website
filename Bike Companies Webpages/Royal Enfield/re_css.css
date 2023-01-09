@@ -90,6 +90,8 @@ nav a{
 nav a:hover {
     color: #eee;
 }
+.logo{
+    max-width: 250px;}
 /*=== Header Body ===*/
 .header-body{
     padding: 2.5em;
