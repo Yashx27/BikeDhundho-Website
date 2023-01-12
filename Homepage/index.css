@@ -7,6 +7,9 @@ html {
 		scroll-behavior: auto;
 	}
 }
+@viewport{
+    width: device-width;
+}
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +29,7 @@ html {
     background: linear-gradient(#1c1c1c,#323232);
     padding: 30px 100px;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
