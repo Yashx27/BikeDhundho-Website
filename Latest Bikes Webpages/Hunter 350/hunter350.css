@@ -45,6 +45,7 @@ section{padding:2.5em;
 .home a:hover{
     letter-spacing: 2px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 /*Set all flex Layouts */
