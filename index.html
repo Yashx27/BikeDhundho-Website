@@ -13,199 +13,201 @@
 </head>
 
 <body>
-    <section class="main">
-        <header>
-            <img src="Homepage/Website_logo_white.png" class="logo" alt="LOGO">
-            <ul class="navigation">
-                <li><a href="#latest">Latest Bikes</a></li>
-                <li><a href="#seller">Bestsellers</a></li>
-                <li><a href="BestSellers Webpages/About Us/about_us.html">About Us</a></li>
-            </ul>
-        </header>
-        <div class="content">
-            <h2>Search the <span>right bike</span></h2>
-            <select class="select_brand" id="slct1" name="slct1" onclick="call(slct1)">
-                <option value="none" selected disabled hidden>Select Brand</option>
-                <option class="name" value="re">Royal Enfield</option>
-                <option class="name" value="j">Jawa</option>
-                <option class="name" value="k">Kawasaki</option>
-                <option class="name" value="s">Suzuki</option>
-                <option class="name" value="bmw">BMW</option>
-                <option class="name" value="hd">Harley Davidson</option>
-            </select>
-            <input type="button" class="btn" value="Search" onclick="submit(slct1)">
+    <div class="container">
+        <section class="main">
+            <header>
+                <img src="Homepage/Website_logo_white.png" class="logo" alt="LOGO">
+                <ul class="navigation">
+                    <li><a href="#latest">Latest Bikes</a></li>
+                    <li><a href="#seller">Bestsellers</a></li>
+                    <li><a href="BestSellers Webpages/About Us/about_us.html">About Us</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <h2>Search the <span>right bike</span></h2>
+                <select class="select_brand" id="slct1" name="slct1" onclick="call(slct1)">
+                    <option value="none" selected disabled hidden>Select Brand</option>
+                    <option class="name" value="re">Royal Enfield</option>
+                    <option class="name" value="j">Jawa</option>
+                    <option class="name" value="k">Kawasaki</option>
+                    <option class="name" value="s">Suzuki</option>
+                    <option class="name" value="bmw">BMW</option>
+                    <option class="name" value="hd">Harley Davidson</option>
+                </select>
+                <input type="button" class="btn" value="Search" onclick="submit(slct1)">
 
-            <img src="Homepage/bg.png" class="bike" id="img">
-        </div>
-        <h2 id="latest" class="heading">LATEST <span>BIKES</span></h2>
-        <!--image slider1 start-->
-        <section class="image_slider">
-            <div class="slider">
-                <div class="slides">
-                    <!--radio buttons start-->
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <input type="radio" name="radio-btn" id="radio4">
-                    <!--radio buttons end-->
-                    <!--slide images start-->
-                    <div class="slide first">
-                        <a href="Latest Bikes Webpages/Hunter 350/hunter 350.html"><img src="Homepage/Hunter 350.png"
-                                alt="Hunter"></a>
-                    </div>
-                    <div class="slide">
-                        <a href="Latest Bikes Webpages/MT-15/yamaha mt.html"><img src="Homepage/MT-15.png"
-                                alt="MT-15"></a>
-                    </div>
-                    <div class="slide">
-                        <a href="Latest Bikes Webpages/Sportster S/sportster.html"><img src="Homepage/Sportster S.png"
-                                alt="Sportster S"></a>
-                    </div>
-                    <div class="slide">
-                        <a href="Latest Bikes Webpages/S1000RR/bmw sr1000rr.html"><img src="Homepage/SR1000RR.png"
-                                alt="SR1000RR"></a>
-                    </div>
-                    <!--slide images end-->
-                    <!--automatic navigation start-->
-                    <div class="navigation-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                        <div class="auto-btn4"></div>
-                    </div>
-                    <!--automatic navigation start-->
-                </div>
-                <!--manual navigation start-->
-                <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                </div>
-                <!--manual navigation end-->
+                <img src="Homepage/bg.png" class="bike" id="img">
             </div>
-        </section>
-        <!--image slider1 end-->
-        <h2 id="seller" class="heading">BEST<span>SELLERS</span></h2>
-        <!--image slider2 start-->
-        <section class="image_slider2">
-            <div class="slider2">
-                <div class="slides2">
-                    <!--radio buttons start-->
-                    <input type="radio" name="radio-btn-2" id="button1">
-                    <input type="radio" name="radio-btn-2" id="button2">
-                    <input type="radio" name="radio-btn-2" id="button3">
-                    <input type="radio" name="radio-btn-2" id="button4">
-                    <!--radio buttons end-->
-                    <!--slide images start-->
-                    <div class="slide2 first">
-                        <a href="BestSellers Webpages/Hayabusa/Hayabusa.html"><img src="Homepage/Hayabusa.png"
-                                alt="Hayabusa"></a>
+            <h2 id="latest" class="heading">LATEST <span>BIKES</span></h2>
+            <!--image slider1 start-->
+            <section class="image_slider">
+                <div class="slider">
+                    <div class="slides">
+                        <!--radio buttons start-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <!--radio buttons end-->
+                        <!--slide images start-->
+                        <div class="slide first">
+                            <a href="Latest Bikes Webpages/Hunter 350/hunter 350.html"><img
+                                    src="Homepage/Hunter 350.png" alt="Hunter"></a>
+                        </div>
+                        <div class="slide">
+                            <a href="Latest Bikes Webpages/MT-15/yamaha mt.html"><img src="Homepage/MT-15.png"
+                                    alt="MT-15"></a>
+                        </div>
+                        <div class="slide">
+                            <a href="Latest Bikes Webpages/Sportster S/sportster.html"><img
+                                    src="Homepage/Sportster S.png" alt="Sportster S"></a>
+                        </div>
+                        <div class="slide">
+                            <a href="Latest Bikes Webpages/S1000RR/bmw sr1000rr.html"><img src="Homepage/SR1000RR.png"
+                                    alt="SR1000RR"></a>
+                        </div>
+                        <!--slide images end-->
+                        <!--automatic navigation start-->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                        <!--automatic navigation start-->
                     </div>
-                    <div class="slide2">
-                        <a href="BestSellers Webpages/CBR650R/CBR650R.html"><img src="Homepage/CBR650R.png"
-                                alt="CBR650R"></a>
+                    <!--manual navigation start-->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
                     </div>
-                    <div class="slide2">
-                        <a href="BestSellers Webpages/Tiger Sport 660/Tiger Sport 660.html"><img
-                                src="Homepage/Tiger Sport 660.png" alt="Tiger Sport 660"></a>
-                    </div>
-                    <div class="slide2">
-                        <a href="BestSellers Webpages/Z900/Z900.html"><img src="Homepage/Z900.png" alt="Z900"></a>
-                    </div>
-                    <!--slide images end-->
-                    <!--automatic navigation start-->
-                    <div class="navigation-auto-2">
-                        <div class="auto-btn-21"></div>
-                        <div class="auto-btn-22"></div>
-                        <div class="auto-btn-23"></div>
-                        <div class="auto-btn-24"></div>
-                    </div>
-                    <!--automatic navigation start-->
+                    <!--manual navigation end-->
                 </div>
-                <!--manual navigation start-->
-                <div class="navigation-manual-2">
-                    <label for="button1" class="manual-btn-2"></label>
-                    <label for="button2" class="manual-btn-2"></label>
-                    <label for="button3" class="manual-btn-2"></label>
-                    <label for="button4" class="manual-btn-2"></label>
+            </section>
+            <!--image slider1 end-->
+            <h2 id="seller" class="heading">BEST<span>SELLERS</span></h2>
+            <!--image slider2 start-->
+            <section class="image_slider2">
+                <div class="slider2">
+                    <div class="slides2">
+                        <!--radio buttons start-->
+                        <input type="radio" name="radio-btn-2" id="button1">
+                        <input type="radio" name="radio-btn-2" id="button2">
+                        <input type="radio" name="radio-btn-2" id="button3">
+                        <input type="radio" name="radio-btn-2" id="button4">
+                        <!--radio buttons end-->
+                        <!--slide images start-->
+                        <div class="slide2 first">
+                            <a href="BestSellers Webpages/Hayabusa/Hayabusa.html"><img src="Homepage/Hayabusa.png"
+                                    alt="Hayabusa"></a>
+                        </div>
+                        <div class="slide2">
+                            <a href="BestSellers Webpages/CBR650R/CBR650R.html"><img src="Homepage/CBR650R.png"
+                                    alt="CBR650R"></a>
+                        </div>
+                        <div class="slide2">
+                            <a href="BestSellers Webpages/Tiger Sport 660/Tiger Sport 660.html"><img
+                                    src="Homepage/Tiger Sport 660.png" alt="Tiger Sport 660"></a>
+                        </div>
+                        <div class="slide2">
+                            <a href="BestSellers Webpages/Z900/Z900.html"><img src="Homepage/Z900.png" alt="Z900"></a>
+                        </div>
+                        <!--slide images end-->
+                        <!--automatic navigation start-->
+                        <div class="navigation-auto-2">
+                            <div class="auto-btn-21"></div>
+                            <div class="auto-btn-22"></div>
+                            <div class="auto-btn-23"></div>
+                            <div class="auto-btn-24"></div>
+                        </div>
+                        <!--automatic navigation start-->
+                    </div>
+                    <!--manual navigation start-->
+                    <div class="navigation-manual-2">
+                        <label for="button1" class="manual-btn-2"></label>
+                        <label for="button2" class="manual-btn-2"></label>
+                        <label for="button3" class="manual-btn-2"></label>
+                        <label for="button4" class="manual-btn-2"></label>
+                    </div>
+                    <!--manual navigation end-->
                 </div>
-                <!--manual navigation end-->
-            </div>
+            </section>
+            <!--image slider2 end-->
         </section>
-        <!--image slider2 end-->
-    </section>
-    <script type="text/javascript">
-        var counter = 1;
-        setInterval(function () {
-            document.getElementById('radio' + counter).checked = true;
-            counter++;
-            if (counter > 4) {
-                counter = 1;
-            }
-        }, 5000);
-    </script>
-    <script type="text/javascript">
-        var count = 1;
-        setInterval(function () {
-            document.getElementById('button' + count).checked = true;
-            count++;
-            if (count > 4) {
-                count = 1;
-            }
-        }, 5000);
-    </script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function () {
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if (counter > 4) {
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+        <script type="text/javascript">
+            var count = 1;
+            setInterval(function () {
+                document.getElementById('button' + count).checked = true;
+                count++;
+                if (count > 4) {
+                    count = 1;
+                }
+            }, 5000);
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <script type="text/javascript">
-        function brand(s1) {
-            var s1 = document.getElementById(s1);
+        <script type="text/javascript">
+            function brand(s1) {
+                var s1 = document.getElementById(s1);
 
-        }
-        function submit(s1) {
-            if (s1.value == "re") {
-                window.location.assign("Bike Companies Webpages/Royal Enfield/Royal.html")
             }
-            else if (s1.value == "j") {
-                window.location.assign("Bike Companies Webpages/Jawa/Jawa.html")
+            function submit(s1) {
+                if (s1.value == "re") {
+                    window.location.assign("Bike Companies Webpages/Royal Enfield/Royal.html")
+                }
+                else if (s1.value == "j") {
+                    window.location.assign("Bike Companies Webpages/Jawa/Jawa.html")
+                }
+                else if (s1.value == "k") {
+                    window.location.assign("Bike Companies Webpages/Kawasaki/Kawasaki.html")
+                }
+                else if (s1.value == "s") {
+                    window.location.assign("Bike Companies Webpages/Suzuki/Susuki.html")
+                }
+                else if (s1.value == "bmw") {
+                    window.location.assign("Bike Companies Webpages/BMW/bmw.html")
+                }
+                else if (s1.value == "hd") {
+                    window.location.assign("Bike Companies Webpages/Harley Davidson/Harley.html")
+                }
             }
-            else if (s1.value == "k") {
-                window.location.assign("Bike Companies Webpages/Kawasaki/Kawasaki.html")
-            }
-            else if (s1.value == "s") {
-                window.location.assign("Bike Companies Webpages/Suzuki/Susuki.html")
-            }
-            else if (s1.value == "bmw") {
-                window.location.assign("Bike Companies Webpages/BMW/bmw.html")
-            }
-            else if (s1.value == "hd") {
-                window.location.assign("Bike Companies Webpages/Harley Davidson/Harley.html")
-            }
-        }
-        function call(s1) {
+            function call(s1) {
 
-            if (s1.value == "re") {
-                document.getElementById("img").src = "Homepage/bg.png"
+                if (s1.value == "re") {
+                    document.getElementById("img").src = "Homepage/bg.png"
+                }
+                else if (s1.value == "j") {
+                    let j = document.getElementById("img")
+                    j.src = "Homepage/jawa_bg.png"
+                }
+                else if (s1.value == "k") {
+                    document.getElementById("img").src = "Homepage/kawasaki_bg.png"
+                }
+                else if (s1.value == "s") {
+                    document.getElementById("img").src = "Homepage/suzuki_bg.png"
+                }
+                else if (s1.value == "bmw") {
+                    document.getElementById("img").src = "Homepage/bmw_bg.png"
+                }
+                else if (s1.value == "hd") {
+                    document.getElementById("img").src = "Homepage/hd_bg.png"
+                }
             }
-            else if (s1.value == "j") {
-                let j = document.getElementById("img")
-                j.src = "Homepage/jawa_bg.png"
-            }
-            else if (s1.value == "k") {
-                document.getElementById("img").src = "Homepage/kawasaki_bg.png"
-            }
-            else if (s1.value == "s") {
-                document.getElementById("img").src = "Homepage/suzuki_bg.png"
-            }
-            else if (s1.value == "bmw") {
-                document.getElementById("img").src = "Homepage/bmw_bg.png"
-            }
-            else if (s1.value == "hd") {
-                document.getElementById("img").src = "Homepage/hd_bg.png"
-            }
-        }
-    </script>
+        </script>
+    </div>
 </body>
 
 </html>
