@@ -7,8 +7,10 @@ html {
 		scroll-behavior: auto;
 	}
 }
-@viewport{
-    width: device-width;
+@media screen and (max-width: 600px){
+    html{
+        font-size: 14px;
+    }
 }
 *{
     margin: 0;
